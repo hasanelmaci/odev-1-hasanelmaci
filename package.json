@@ -1,0 +1,27 @@
+{
+  "name": "odev-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-hasanelmaci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-hasanelmaci/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-hasanelmaci#readme",
+  "devDependencies": {
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
